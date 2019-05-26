@@ -16,8 +16,19 @@ mcr.microsoft.com/dotnet/core/samples:aspnetapp
 https://github.com/StefanScherer/dockerfiles-windows/tree/master/webserver
 
 
+Wihtin ServerCore Container:
+docker run  -it --rm ... servercore... powershell
+get-service
+get-process
+
+
+
 images
+
+sixeyed/tweet-app
+
 kellygriffin/mysite
+
 kellygriffin/hello-world
 
 
